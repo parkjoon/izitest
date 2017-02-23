@@ -20,20 +20,29 @@ A mini project for my application to IZI Mobile.
 
 - React
   - https://facebook.github.io/react/
+  - Note that the entire application is loaded as a child of the App component located in /src/components/App.js.s
 - Redux
   - http://redux.js.org/
+  - The actions are located in /src/actions/.
+  - The reducers are located in /src/reducers/.
 - Webpack
   - https://webpack.github.io/
   - Used to build the application source.
+  - The configuration can be found in /webpack.config.js and is used in conjunction with /server.js to run a hot-reloading development server.
 - React Router
   - https://github.com/ReactTraining/react-router
   - Used to handle routing within the single page application.
+  - The routing logic is located in /src/index.js.
 - Porto Web Templates
   - https://themeforest.net/item/porto-responsive-html5-template/4106987
   - Used for rapid prototyping of beautiful UI.
+  - All template files are located in /styles.
+  - The styles are imported through JavaScript in /src/index.js.
 - Axios
   - https://github.com/mzabriskie/axios
   - Promise based HTTP client.
+  - You can find the call to the REST API in /src/utils/api.js.
 - Reactable
   - https://github.com/glittershark/reactable
   - Fast, flexible, and simple data tables in React.
+  - The memorials are rendered in /src/components/views/Home/MemorialList.js.
