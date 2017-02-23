@@ -42,6 +42,7 @@ A mini project for my application to IZI Mobile.
   - https://github.com/mzabriskie/axios
   - Promise based HTTP client.
   - You can find the call to the REST API in /src/utils/api.js.
+  - Note that the actual fetching of memorials data happens in the componentDidMount lifecycle function of the Home component located in /src/components/views/Home/Home.js.
 - Reactable
   - https://github.com/glittershark/reactable
   - Fast, flexible, and simple data tables in React.
